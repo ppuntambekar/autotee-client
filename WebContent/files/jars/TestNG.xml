@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test1" verbose="3"  parallel="tests" thread-count="4">
+<test name="Running on Firefox">
+<parameter name="browser"  value="Firefox"/>
+<classes>
+<class name="testsng.NewTest"/>
+</classes>
+</test>
+</suite>

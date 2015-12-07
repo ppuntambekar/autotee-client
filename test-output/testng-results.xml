@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test1" duration-ms="68585" started-at="2015-11-30T23:37:58Z" finished-at="2015-11-30T23:39:06Z">
+    <groups>
+    </groups>
+    <test name="Running on Firefox" duration-ms="68585" started-at="2015-11-30T23:37:58Z" finished-at="2015-11-30T23:39:06Z">
+      <class name="com.noname.controller.NewTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.noname.controller.NewTest@7156b6f3]" name="setup" is-config="true" duration-ms="39360" started-at="2015-11-30T15:37:58Z" finished-at="2015-11-30T15:38:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_first()[pri:0, instance:com.noname.controller.NewTest@7156b6f3]" name="test_first" duration-ms="28655" started-at="2015-11-30T15:38:37Z" finished-at="2015-11-30T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_first -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.noname.controller.NewTest@7156b6f3]" name="tearDown" is-config="true" duration-ms="354" started-at="2015-11-30T15:39:06Z" finished-at="2015-11-30T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.noname.controller.NewTest -->
+    </test> <!-- Running on Firefox -->
+  </suite> <!-- test1 -->
+</testng-results>

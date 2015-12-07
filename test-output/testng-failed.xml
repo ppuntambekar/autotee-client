@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" verbose="3" name="Failed suite [test123]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="Running on Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.noname.controller.NewTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="test_first"/>
+        </methods>
+      </class> <!-- com.noname.controller.NewTest -->
+    </classes>
+  </test> <!-- Running on Chrome(failed) -->
+</suite> <!-- Failed suite [test123] -->
